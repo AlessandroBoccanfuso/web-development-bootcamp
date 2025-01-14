@@ -1,0 +1,31 @@
+h1 {
+    font-family: "Sacramento", cursive;
+    color: #FFCF9D;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #004225, #F5F5DC, #FFB000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.btn {
+  background: linear-gradient(300deg, #004225, #F5F5DC, #FFB000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
